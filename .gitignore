@@ -1,0 +1,16 @@
+node_modules
+node_modules/
+node_module/
+public/bundle.js
+public/bundle.js.map
+.localSecrets.js
+.idea
+.DS_Store
+
+# Compiled JS
+/public/bundle.js
+/public/bundle.js.map
+
+# NPM errors
+npm-debug.log
+/.localSecrets
