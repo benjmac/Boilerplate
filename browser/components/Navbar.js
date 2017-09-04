@@ -7,7 +7,7 @@ import store from '../store'
 
 import { login, logout, whoami } from '../reducers/auth'
 // import '.../public/stylesheets/nav.scss'
- 
+
 /* -----------------    COMPONENT     ------------------ */
 
 class Navbar extends React.Component {
@@ -26,7 +26,7 @@ class Navbar extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">TuneN</a>
+            <a className="navbar-brand" href="#">ProjectName</a>
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
@@ -74,11 +74,11 @@ class Navbar extends React.Component {
                       <li>
                         <input name="password" type="password"  className="form-control login-input" placeholder="Enter Password" />
                       </li>
-                      
+
                       <li className="login-btn ">
                         <button className="login btn btn-success" label="login" type="submit" value="Login" >Login</button>
                       </li>
-                      
+
                       <li className="login-btn">
                         <a href='/api/auth/google'><img src="googlebtn.png" /></a>
                       </li>
@@ -91,7 +91,7 @@ class Navbar extends React.Component {
           </div>
         </div>
       </nav>
-    
+
     )
   }
 }
