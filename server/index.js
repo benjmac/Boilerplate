@@ -18,7 +18,7 @@ app.listen(3000, function () {
 var env = process.env.NODE_ENV || 'development'
 
 if (env === 'development') {
-  require('../.localSecrets'); // this will mutate the process.env object with your secrets.
+  // require('../.localSecrets'); // this will mutate the process.env object with your secrets.
 }
 
 const morgan = require('morgan');
